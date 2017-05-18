@@ -1,0 +1,6 @@
+framework module TPSnsPlatform {
+  umbrella header "TPSnsPlatform-umbrella.h"
+
+  export *
+  module * { export * }
+}

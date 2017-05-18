@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPSnsPlatform_Example' do
+  pod 'TPSnsPlatform', :path => '../'
+
+  target 'TPSnsPlatform_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

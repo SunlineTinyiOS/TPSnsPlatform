@@ -1,0 +1,16 @@
+PODS:
+  - TPSnsPlatform (0.1.0)
+
+DEPENDENCIES:
+  - TPSnsPlatform (from `../`)
+
+EXTERNAL SOURCES:
+  TPSnsPlatform:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TPSnsPlatform: 7e59b8f68173b16d003d06b57dc9a7cf44beb701
+
+PODFILE CHECKSUM: 8483af5f7a34b5f4b99b5972d21d537f9e27ad11
+
+COCOAPODS: 1.2.1
