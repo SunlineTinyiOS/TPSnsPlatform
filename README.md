@@ -20,7 +20,28 @@ it, simply add the following line to your Podfile:
 pod "TPSnsPlatform"
 ```
 ## Usage
+使用案例:
 
+```ruby
+/**
+ *  平台名称
+ *  wxsession:微信
+ *  sina:微博
+ *  qq:qq
+ */
+function login(platformName){
+    var a = new SnsPlatform();
+    a.platformName = platformName;//登录的平台
+    a.success = function(data){
+        window.alert(data);
+        console.print(data);
+    }
+     a.error = function(data){
+        window.alert(data);
+    }
+    a.login();
+}
+```
 
 
 ## Author
